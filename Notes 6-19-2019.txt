@@ -1,0 +1,70 @@
+6/19/2019
+DESIGN PATTERNS
+-Wikipedia defines design patterns as a genral reusable solution to a common problem
+-Pretty much are formalized best practices
++Benefits 
+-creates a shared vocabiulary
+-keeps thinking/ designing at the abstract level
+    creates more flexable and reusable code
+ORIGIN
++in 1987, kent beck and ward cunningham began experimenting with the idea of applying patterns to programming.
+CHRISTOPHER ALEXANDER
++in software he is thought of as the father of design patterns
++the first wiki (the tech behind wiki ) inspired him to create them
+
+GROUPS AND CONCEPTS
++Design patterns were oruginally grouped onto the categories: 
+    -creation patterns
+    -structural 
+    -behavioral
+
++And described using the concepts of 
+    -delegation
+    -aggregation
+    -consultation
+
+AEI and o plus onesaying to remember the core concepts of programming
+
+FIRST DESIGN PRINCIPLE
+    -Identify the aspects of your application that vary and seperate them from what stays the same 
+    -You can alter ot extend without affevting other patterns
+    -Basis of almost every design pattern
+    
+SECOND DESIGN PRINCIPLE
+    -Program to an interface not an implementation
+        -not necessarily a java interfce 
+        -program to a supertype
+            -private Map<String, Boolean> urls = new concurrentHashMap<String,Boolean>();
+        -can then better use polymorphism
+        -can more easily change implementation
+        -declare variables at highest abstraction level
+
+THIRD DESIGN PRINCIPLE 
+    -favors composition over inheritance
+    -favors a has-a relationship over is-a relationship
+    -inheritance limits reusablility
+
+THE STRATEGY PATTERN
+    -a behavioral pattern
+    -defines a family of algorithms,encapsulates each one, and makes them interchangeable
+    -strategy lets the algorithm vary independently from the client that uses it
+
+FROM CHAPTER ONE IN DESIGN PATTERNS BOOK
+
+CHAPTER 2 IN DESIGN PATTERS BOOK
+
+THE OBSERVER PATTERN
+    -defines a one to many dependancy between objects 
+    -an object is called an object,called the subject , maintains a list of dependencies called observers and notifies them automaticaaly of any state changes, usually by calling one of their methods
+    -mostly used in event driven software
+    -the observer pattern is a key part of the mvc system
+
+LANGUAGES 
+    -java has observable,observe state etc.
+
+DESIGN PRINCIPLES 
+    -strive for loosely coupled designs between objects that interact
+    -objects have little information about wach other 
+    -no shared data
+
+
