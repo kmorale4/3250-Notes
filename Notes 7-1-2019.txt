@@ -1,0 +1,159 @@
+Iterator pattern 
+    -provides a way to access the elements of an aggrefate object 
+    In object-oriented programming, the iterator pattern is a design pattern in which an iterator is used to traverse a container and access the container's elements. The iterator pattern decouples algorithms from containers; in some cases, algorithms are necessarily container-specific and thus cannot be decoupled.
+    For example, the hypothetical algorithm SearchForElement can be implemented generally using a specified type of iterator rather than implementing it as a container-specific algorithm. This allows SearchForElement to be used on any container that supports the required type of iterator.
+JAVA
+    -Enumeration is the older that has been replaced by iterator 
+        iterator allows removal
+
+Design principle 
+    -a class should hace only one reason to change
+        single responsibility principle
+    -High cohision 
+        all methodws related to purpose
+
+Composite pattern 
+    -allows you to compose objects into tree structures to represent part/whole hierarchies
+    -composite allows clients to treat individual objects and composition of objects uniformly
+    -we can apply the same operations over both composite and individual objects
+    -can ignore differences between the two 
+    -think recursion
+
+Part/Whole 
+    animals, mammals, cats..
+        repiration, other similar features
+    objects in scene 
+        texture,placement,etc
+
+DESIGN PATTERNS 10
+
+THE STATE PATTERNS
+    State 
+        -the combination of the value of all the variables in an object
+        -we use state machines all the time
+            nfas,dfas
+        -automata
+            combinational logic 
+            fsms(finite state machines)
+            pushdown
+            turing machines
+
+    State
+        -vending machines, elevator,locks, traffic, lights,etc
+        -FSMS limited to the amount of memory it has
+
+   State pattern    
+    -allows an object to alter its behavior when its internal state changes
+    -the object will appear to change its class
+    -very similar ro strategy pattern 
+
+GETTING A JOB
+    KNow someone who can you you in
+
+    #1 
+        -maintaining your gpa is the #1 thing you can do
+        -impressing people in your classes is the other #1 thing you can do
+
+    Linked in
+        -frickin join it
+            its free 
+            its a good way to network
+            they send jobs that match your skills
+            pulse is usually pretty good 
+            recruiters rely on it heavily
+
+    Meetup 
+        -frickin join it
+        -find a meetup that matches your interest in a jobspizza and recruiter there
+        -DJUG https://www.meetup.com/Denverjavausersgroup
+
+    Twitter
+        follow those whom youre interested in and see what they tweet
+        join it
+        dont just retweet or Like
+    
+    stop
+        -gaming
+            your wow madden fps friends arent going to hire you
+            and they dont make you a coach, shooter, etc
+            get off the couch
+        -fbing instagramming
+        -watching your favorite sportsball
+        -wasting your time
+            time is all we have
+        -Everyone is an expert on something
+            choose
+
+    start
+        -learning about your field
+            acm iEEE
+        -being relatable
+            be able to interact with the non geek
+        -being nice
+        -branching out
+            new languages,etc
+
+    Why is anyone hired 
+        because someone is willing to pay to have a solution to their problems
+        be the solution
+
+    Do the job before you get the job 
+        do research on the company and the position 
+        what tech do they usewhom have they bought and been bought by
+        their strengths and weakness and those of their competitiors
+
+    Market yourself 
+        print out some cards
+            include 
+                a non school email address
+                your twitter linked in github and urls
+
+            github
+                your school work 
+                gist
+            blog
+
+    Market yourself 
+        -create and give a presentation or two
+        -write a paper or twi
+    
+    Resumes 
+        -your resume will first be filtered by an hr program be buzzword compliant
+        -you have ~5 seconds to catch someones attention
+
+    Dont
+        -put your address
+            youre willing to commute or wfh
+        -use your school email
+        -have a cute email address or funny/gamer github login
+        -List tyour required courses 
+            but do list your electives
+        -list your ides
+        -mention desktop applications
+        -put in objectives is to to get a job
+            your objectives is to get a job
+            objectives and targeted info can go in a cover letter
+
+    Do
+        -put in your github and lonkedin urls
+        -list your languages either in order or with level of experience
+            beginner , intermediate, etc
+
+    Do 
+        -list scrum github design patters, tdd , travis ci/cd ,sonar cloud
+        -mention linux
+        -say what you role was and what you actually did
+            not what you were responsible for
+    
+    Interviewing: Many kinds 
+        -typically start with phone screen
+        -possibly followed by an onlone quiz 
+        -possibly followed by an outline quizmay be half or full day
+        -may be interviewed by group
+            or individuals
+            or mix
+        -typically have to eat with them
+            learn some table manners
+
+    
+    
