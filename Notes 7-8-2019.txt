@@ -1,0 +1,142 @@
+Interviewing
+
+What you want
+    -working at some places is worse than not working in the field for a time
+        trailing edge technology that traps youa place you can exvel in
+        churn and burn
+
+what to ask
+    -why do you work here
+    -what are the working conditions
+    -what se lifecycle is used
+    -what is the tool chain
+    -HR
+        how are the benefits health vacation retirement etc
+
+types of questions 
+    -computer science 
+    -what youve done
+    -languages and frameworks
+
+Computer science    
+    -algorithms and data structures
+    -0 of algorithms and choosing
+    -imperative vs funvtional
+    -www.nerdparadise.com/tech/interview
+
+What youve done 
+    -make sure you did what is on your resume are ready to talk about it
+    -they are looking for specifics
+    -give a concrete example
+    -if you done have an example say so
+
+languages   
+    -when would you use anonymous inner class in java
+    -whats a lambda
+        know your versions
+    -whats closure
+
+OO
+    -what are the major features of OO
+        abstract, encapsulation,inheritence,polymorphism
+    -what is an interface
+    -what is a virtual method
+    -what is a multiple inheritence
+
+OO
+    -deep copy vs shallow copy
+    -dependency inversion/inversion control
+        frameworks
+    -design patterns
+
+Do me a solid
+    s-single responsibility
+        classes do one thing
+    o-open closed principle
+        open for extension, closed for modification
+    l-liskov substitution principle
+
+    i- interface segregation principle
+    d - dependency inversion principle
+
+OS
+    -concurrency vs parrallel
+
+networks
+    -ip v4/6 addressing
+    -tcp vs udp
+    -client vs server
+
+Software engineering
+    -git, github
+    -agile manifesto
+    -TDD
+    -dry,yagni
+
+Web
+    -MVC
+    -ORM
+    -AJAX
+
+Questions
+    -why are manhole covers round
+    -what is 2^24
+    -how usable addresses in a class c network
+    -what are your strengths and weaknesses
+        no kidding
+    -why do you want to work her
+
+Tough questions
+    -they will typically will ask a few very figgicult questions
+        to show off
+        to see how you reason
+    -how many trees are in the CONUS
+    -how far away is the moon
+
+Verbal hints
+    -we speak not onlly to tell other people what we think, but to tell ourselves what we think.speech is part of our thoughts
+
+Verbal hints
+    -Dont say "i feel like"
+        no one cares how you feel
+        you hopefully mean,"i think" or "i believe"
+
+Try to avoid like
+    -unless youre making a simile
+    -also ,"um","you know", and "got"
+    -dont use "literally"
+
+Verbal hints
+    -irregardless is not a word
+        regardless is
+        irrespective is
+    -dont say methodology
+    -the word data is plural
+    -dont make jokes
+    -be terse and dont BS
+
+guerrilla Interviewing
+    -looking for smart people who can get things done 
+    -introduction
+    -questions about recent project candidate worked on
+    -easy programming questions
+    -pointer/ recursion question
+    -do you have any questions
+
+Some typically
+    please tell me about yourself
+    waht makes you interestes int he position
+
+some typical
+    why did you choose this field
+
+resources
+    book
+        cracking the coding interview
+        
+    
+
+
+
+
+
