@@ -1,0 +1,31 @@
+Decomposing user stories
+Fibonocci sequence scale
+1,2,3,5,8,13
+Story point equals and hour
+stories greater then three story points should be broken down
+
+
+1. As a user I would like rooms to be able to hold items as well as the player
+    (8)room[]
+        -(3)test for existence[]
+        -(2)add to list[]
+        -(2)remove from list[]
+        
+Spike - research on I/O , save load feature from yaml
+            -put in backlog
+            -finish breaking up later
+
+    (8)Player[]
+        -(3)test for existence[] 
+            -where are we adding
+            -edge cases
+        -(2)add to list[]
+        -(2)removal from list[]
+
+    ()items[]
+
+2. As a user I would like to be able to pick up or drop items in rooms
+3. As a user I would like to be able to use items based on their function (use keys only for unlocking doors etc.)
+4. As a user I would like to be able to specify target of an items use (use key on which door)
+5. As a user I would like a points system for the game
+6. As a user I would like NPC's to interact with
