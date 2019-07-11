@@ -1,0 +1,73 @@
+EFFECTIVE JAVA CHAPTER 2
+
+-Consider static factory methods insread of constructors
+    one advantage is they have names 
+        constructors do nor and one has to differntiate via parameters
+    this can be confusing and lead to errors 
+
+-a class can have only one constructor with a given names    
+    dont change order of constructor parameters to differntiate
+
+Consider static factory methods insread of constructors
+    +static factory methods dint hace to create a new object
+        -constructors always do
+        -maybe thers a object already created that works 
+        -helps with immutable classes and precondtructed onstances
+        -singletons,flyweights,non instantiation
+
+consider static factory methods insread of constructors
+    +can return 
+        -java.util.collections contains all static methods that work on many types
+        -polymorphic
+        -addAll,binarySearch,disjoint,frequency,min,max,sort,shuggle,reverse
+        -type returned can be non-public
+        -can very implemetation
+        -functionality over attributes
+
+-Consider static factory methods insread of constructors
+    +returned class need not exist at the time the class is written
+        -allows run-time specification
+        -JDBC an example
+
+Service provider framework
+    +service interface 
+    +provider registration
+    +service access
+    +optional service provider interface
+        -factory to create service provider
+
+Java 6
+    +general purpose java.util.ServiceLoader
+        -so dont have to write your own
+
+Consider static factory methods insread of constructors
+    +disadvantages
+        -classes wothout public or protected constructors cannot be subclassed
+        -not called out in javadoc
+    +popular java static factory names
+        -valueOf,getInstance,newInstance,getType
+
+Consider a builder when faced with many constructor parameters
+    if a class has many 
+
+Consider a builder when faced with many constructor parameters
+    +create empty instance and have many set()s
+        -problem instances in inconsistent state 
+    +builder pattern
+    +build() is a parameter less static methods
+    +required parameters passed into constructor
+        -optionals set()
+        -other languages have optional paramerers instead
+
+
+
+
+
+
+      
+
+
+
+
+
+
