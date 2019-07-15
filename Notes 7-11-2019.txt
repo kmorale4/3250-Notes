@@ -1,0 +1,47 @@
+Prefer dependency injection 
+    -helps preserve immutabulity 
+    -works for constructors, factories, and builders 
+    -can pass factory into constructor 
+    -use di frameworks
+
+Avoid creating unnecessary objects 
+    -use literalls and valueOf()
+    -anything is immutable
+    -andything that is stateless
+        -eq.adapters
+
+SO
+    -try very hard to not manafe memory
+    -nulling object references should be very unusual
+
+avoid finalizers 
+    -unpredictable,often dangerous, generally unnecessary
+    -unlike C++ destructors
+        these are called immediatly 
+        java uses try/finally for these types of uses
+    -one never knows when finalizer is called
+        part of garbage collection
+        might not be called at all
+
+avoid finalizer
+    -Dont eg close files there is a limited number of open files
+    -finalizers are slow
+    -finalizer are not chained
+    if really need functionality 
+
+avoid finalizers 
+    -there are finalizer attacks 
+        create final finalize methods to protext
+    -implement AutoClosable
+        have to have close methods
+        used with true with resources statements
+
+CHAPTER 3
+methods common to all objects
+obey the general contract hwen overriding equals
+
+    sometimes you font beed to  
+        when all onjevt are 
+
+
+
